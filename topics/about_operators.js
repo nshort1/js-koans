@@ -24,7 +24,7 @@ test("subtraction", function() {
   for (var i = 0; i <= 2; i++) {
     result = result - i;
   }
-  equal(__, result, "What is the value of result?");
+  equal(2, result, "What is the value of result?");
 });
 
 test("assignment subtraction", function() {
